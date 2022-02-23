@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IProps {
-  amentity: string;
+  amenity: string;
 }
 
 const RoomAmentityIcon: React.FC<IProps> = ({ amenity }) => {

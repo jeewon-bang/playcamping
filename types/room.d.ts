@@ -25,7 +25,34 @@ export type StoredRoomType = {
 
 export type RoomType = {
   id: number;
+  campingType: string;
   maximumGuestCount: number;
+  amenities: string[];
+  latitude: number;
+  longitude: number;
+  country: string;
+  city: string;
+  district: string;
+  streetAddress: string;
+  detailAddress: string;
+  postcode: string;
+  photos: string[];
+  description: string;
+  title: string;
+  price: string;
+  startDate: string;
+  endDate: string;
+  createdAt: string;
+  updatedAt: string;
+  host: UserType;
+  reservation: ReservationType[];
+};
+
+export type ManageRoomType = {
+  id: number;
+  campingType: string;
+  maximumGuestCount: number;
+  amenities: string[];
   latitude: number;
   longitude: number;
   country: string;
